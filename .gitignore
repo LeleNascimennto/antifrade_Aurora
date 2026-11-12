@@ -12,7 +12,7 @@ venv/
 .env
 .env.*
 !.env.example
-/config.py
+!.env.exemplo
 
 # Serviços locais e bancos de dados
 /mlruns/
