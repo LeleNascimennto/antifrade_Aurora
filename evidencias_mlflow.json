@@ -1,0 +1,67 @@
+{
+  "aluno": "leticia_silva",
+  "gerado_em": "2026-11-11T07:17:52",
+  "modelo": "antifraude",
+  "alias": "champion",
+  "versao": "1",
+  "descricao": "Gradient boosting. Corte 0.05. Menor custo elegível na validação: R$ 28448.23.",
+  "tags_versao": {
+    "threshold": "0.05",
+    "motivo": "v1.0.0 - primeiro modelo em produção"
+  },
+  "run_id": "2325cc3ec53b4550b5cc074233906039",
+  "experimento": "3",
+  "params": {
+    "algoritmo": "Gradient boosting",
+    "treino": "1-10",
+    "validacao": "11-12",
+    "contrato": "1.0",
+    "categorical_features": "from_dtype",
+    "class_weight": "None",
+    "early_stopping": "auto",
+    "interaction_cst": "None",
+    "l2_regularization": "0.0",
+    "learning_rate": "0.1",
+    "loss": "log_loss",
+    "max_bins": "255",
+    "max_depth": "None",
+    "max_features": "1.0",
+    "max_iter": "200",
+    "max_leaf_nodes": "31",
+    "min_samples_leaf": "20",
+    "monotonic_cst": "None",
+    "n_iter_no_change": "10",
+    "random_state": "42",
+    "scoring": "loss",
+    "tol": "1e-07",
+    "validation_fraction": "0.1",
+    "verbose": "0",
+    "warm_start": "False"
+  },
+  "metricas": {
+    "pr_auc": 0.8114928867181472,
+    "recall": 0.8366666666666667,
+    "precision": 0.47136150234741786,
+    "custo": 28448.23,
+    "threshold": 0.05
+  },
+  "artefatos": [
+    "modelo",
+    "referencia"
+  ],
+  "referencia": [
+    "referencia/validacao.csv"
+  ],
+  "sistema": {
+    "sistema": "ok",
+    "contrato": "1.0",
+    "modelo": {
+      "ok": true,
+      "versao": "1",
+      "threshold": 0.05,
+      "run_id": "2325cc3ec53b4550b5cc074233906039",
+      "descricao": "Gradient boosting. Corte 0.05. Menor custo elegível na validação: R$ 28448.23."
+    }
+  },
+  "avisos": []
+}

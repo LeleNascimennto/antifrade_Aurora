@@ -1,0 +1,35 @@
+# Python e Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configuração e credenciais locais
+.env
+.env.*
+!.env.example
+/config.py
+
+# Serviços locais e bancos de dados
+/mlruns/
+/mlartifacts/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.local.err
+
+# Dados de origem e pacotes gerados pelo notebook
+/dados/
+/entrega/
+entrega_parte*.zip
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
